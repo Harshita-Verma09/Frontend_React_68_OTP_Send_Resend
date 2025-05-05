@@ -1,12 +1,27 @@
-# React + Vite
+# OTP Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React component generates and displays a One-Time Password (OTP). The OTP is randomly generated and then disappears after 10 seconds. It also includes buttons to trigger the OTP generation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generates a 5-digit random OTP.
+- Displays the generated OTP on the screen.
+- Automatically hides the OTP after 10 seconds.
+- Provides "Send OTP" and "Resend" buttons to trigger OTP generation.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Tailwind CSS (for basic styling)
+
+## Installation
+
+1. Make sure you have Node.js and npm (or yarn) installed on your system.
+2. Clone this repository (or copy the `OTP.js` file into your React project).
+3. If you are not already using Tailwind CSS, install it and its peer dependencies:
+
+   ```bash
+   npm install -D tailwindcss postcss autoprefixer
+   # or
+   yarn add -D tailwindcss postcss autoprefixer
